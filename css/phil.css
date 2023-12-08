@@ -1,0 +1,114 @@
+header {
+    display: inline;
+}
+header a img {
+    margin-bottom: 1em;
+    margin-top: 2em;
+    width: 200px;
+    display: inline;
+}
+p {
+    color: grey;
+}
+video {
+    width: 100%;
+    margin-top: 1em;
+    display: block;
+}
+#video2 {
+    margin: 0px;
+    padding-top: 10px;
+}
+.burger {
+    float: right;
+    margin-top: 2em;
+}
+.page-image, .sbs img {
+    width: 100%;
+    margin-top: 1em;
+}
+.poem-content {
+    margin: auto;
+    width: 350px;
+    padding-top: 2em;
+    font-size: 125%;
+    
+}
+.nav-link {
+    color: grey;
+}
+.nav-link:hover {
+    color: black;
+}
+.waiting {
+    width: 100%;
+    display: block;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+@media (min-width: 768px) { 
+    header a img {
+        margin-bottom: 1em;
+        margin-top: 2em;
+        width: 475px;
+    }
+    video {
+        margin-top: 3em;
+        padding-top: 3em;
+    }
+    .burger {
+        float: left;
+    }
+    .page-image {
+        margin-top: 3em;
+        padding-top: 3em;
+        max-width: 776px;
+    }
+    .pi-sm {
+        width: 45%;
+        display: inline;
+        margin: 2%;
+        padding: 0px;
+    }
+    .poem-content {
+        margin: auto;
+        width: 350px;
+        padding-top: 2em;
+        font-size: 125%;
+        
+    }
+    .waiting {
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+    }
+    .sbs-tain {
+        display: flex;
+    }
+    .sbs {
+        flex: 1;
+    }
+    .sbs img{
+        margin-top: 3em;
+        padding-top: 2em;
+        margin-right: 20px;
+        width: 80%;
+    }
+    .col-md-2 {
+        display: none;
+    }
+}
+@media (min-width: 1200px) {
+    .col-md-2 {
+        display: block;
+    }
+}
